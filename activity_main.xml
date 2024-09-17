@@ -1,0 +1,47 @@
+<!-- File name: app/src/main/res/layout/activity_main.xml -->
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textSize="18sp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <Button android:id="@+id/gridButton1" />
+        <Button android:id="@+id/gridButton2" />
+        <Button android:id="@+id/gridButton3" />
+        <Button android:id="@+id/gridButton4" />
+        <Button android:id="@+id/gridButton5" />
+        <Button android:id="@+id/gridButton6" />
+        <Button android:id="@+id/gridButton7" />
+        <Button android:id="@+id/gridButton8" />
+        <Button android:id="@+id/gridButton9" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/audioMatchButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Audio Match" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Game" />
+
+</LinearLayout>
